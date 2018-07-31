@@ -7,7 +7,7 @@ USA<br/>
 
 **E-mail** : milinda (at) cs (dot) utah (dot) edu
 
-You can find my [CV](cv/build/milinda_cv.pdf)
+You can find my CV [here](cv/build/milinda_cv.pdf)
 
 ### About Me
 
