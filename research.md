@@ -25,7 +25,7 @@
 
 Simple non-linear wave equation solved by Dendro-GR to demonstrate the Wavelet Adaptive Mesh Refinement (WAMR)
 
-<video width="520" height="280" controls loop>
+<video width="400" height="200" controls loop>
  <source src="./vids/lwaveEq.mp4" type="video/mp4">
  Your browser does not support the video tag.
 </video>
@@ -37,7 +37,7 @@ the propergation of the wave.
 
 
 
-<video width="463" height="225" controls loop>
+<video width="400" height="200" controls loop>
  <source src="./vids/nlsmB.mp4" type="video/mp4">
  Your browser does not support the video tag.
 </video>
@@ -48,9 +48,4 @@ Non linear wave equation with two Gaussian distributions as the initial conditio
 
 ### Space Filling Curve based octree partitioning. 
 
-Hilbert curve based octree partitioning
-![Communication graph for Hilbert curve based partitioing for finite element matvec](./figs/hilbert_with_threshold_0p1.png)
-
-Morton curve based octree partitioning
-![Communication graph for Morton curve based partitioing for finite element matvec](./figs/morton_with_threshold_0p1.png)
-
+![flexible partitioning](./figs/flexPart.png)
