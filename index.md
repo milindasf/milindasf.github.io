@@ -1,4 +1,4 @@
-### Contact Info
+## Contact Info
 **Office**: 
 3345 MEB<br/>
 School of Computing <br/>
@@ -9,7 +9,7 @@ USA<br/>
 
 You can find my CV [here](cv/build/milinda_cv.pdf)
 
-### About Me
+## About Me
 
 I am a Ph.D. (in scientific computing track) student at School of Computing, University of Utah. I did my undergraduate studies in the field of Computer Science at University of Moratuwa. Currently, I am working as a Graduate Research Assistant, under 
 <a href="http://www.cs.utah.edu/~hari/" target="_blank">Prof. Hari Sundar </a>
@@ -17,13 +17,25 @@ I am a Ph.D. (in scientific computing track) student at School of Computing, Uni
 
 My research is focused on, developing scalable parallel algorithms to solve Partial Differential Equations (PDEs), Galerkin methods (both continous & discontinous), finite differences & fintie volume methods based on octree based adaptive discritizations
 
-### Education
+## Education
 * 2015-present : Univeristy of Utah, Ph.D Scientific Computing 
 * 2010-2015 : University of Moratuwa, B.Sc Computer Science
 
 <!--- <a href="" target="_blank"></a> ---> 
 
-### Publications
+## Research
+
+### Computational Relativity
+
+<a href="https://github.com/paralab/Dendro-GR" target="_blank">Dendro-GR</a> : Massivly parallel computational framework for computational general relativity (<a href="https://arxiv.org/abs/1807.06128" target="_blank">arXiv:1807.06128v1</a>). 
+
+<video width="1600" height="900" controls loop>
+  <source src="./vids/r1_U_CHI.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+## Publications
 For full publication list please visit my <a href="https://scholar.google.com/citations?user=PPKkq2cAAAAJ&hl=en" target="_blank">Google Schoolar</a> page, here are some of the selected publications.
 
 1. Milinda Fernando, David Neilsen, Hyun Lim,  Eric Hirschmann, Hari Sundar, "Massively Parallel Simulations of Binary Black Hole Intermediate-Mass-Ratio Inspirals" (<a href="https://arxiv.org/abs/1807.06128" target="_blank">arXiv:1807.06128v1</a> ) (Submited to SIAM SISC journal)
