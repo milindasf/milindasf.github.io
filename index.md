@@ -25,28 +25,7 @@ My research is focused on, developing scalable parallel algorithms to solve Part
 
 ## Research
 
-### Computational Relativity
-
-<a href="https://github.com/paralab/Dendro-GR" target="_blank">Dendro-GR</a> : Massivly parallel computational framework for computational general relativity (<a href="https://arxiv.org/abs/1807.06128" target="_blank">arXiv:1807.06128v1</a>). 
-
- <div class="row">
-  <div class="column">
-    
-   <video width="400" height="225" controls loop>
-   <source src="./vids/r1_U_CHI.mp4" type="video/mp4">
-   Your browser does not support the video tag.
-   </video>
-
-  </div>
-  <div class="column">
-   <video width="400" height="225" controls loop>
-   <source src="./vids/r1_chi.mp4" type="video/mp4">
-   Your browser does not support the video tag.
-   </video>
-  </div>
-  
- </div> 
-
+Summary of some of my research work can be found [here](research.md)
 
 
 ## Publications
