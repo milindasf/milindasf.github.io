@@ -9,7 +9,7 @@ My research is focused on, developing scalable parallel algorithms to solve Part
 * 2010-2015 : University of Moratuwa, B.Sc Computer Science
 
 ### Publications
-For full publication list please visit my [Google Schoolar](https://scholar.google.com/citations?user=PPKkq2cAAAAJ&hl=en) page, here are some of the selected publications.
+For full publication list please visit my <a href="https://scholar.google.com/citations?user=PPKkq2cAAAAJ&hl=en" target="_blank">Google Schoolar</a> page, here are some of the selected publications.
 
 1. Milinda Fernando, David Neilsen, Hyun Lim,  Eric Hirschmann, Hari Sundar, "Massively Parallel Simulations of Binary Black Hole Intermediate-Mass-Ratio Inspirals" ([arXiv:1807.06128v1](https://arxiv.org/abs/1807.06128) ) (Submited to SIAM SISC journal)
 
