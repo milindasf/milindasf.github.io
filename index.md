@@ -53,7 +53,7 @@ My research is focused on, developing scalable parallel algorithms to solve Part
 Simple non-linear wave equation solved by Dendro-GR to demonstrate the Wavelet Adaptive Mesh Refinement (WAMR)
 
 <video width="400" height="225" controls loop>
- <source src="./vids/lWaveEq.mp4" type="video/mp4">
+ <source src="./vids/lwaveEq.mp4" type="video/mp4">
  Your browser does not support the video tag.
 </video>
 
