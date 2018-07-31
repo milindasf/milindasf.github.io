@@ -7,6 +7,7 @@ USA<br/>
 
 **E-mail** : milinda (at) cs (dot) utah (dot) edu
 
+You can find my <a href="cv/build/milinda_cv.pdf" target="_blank">CV</a>
 
 ### About Me
 
