@@ -1,3 +1,13 @@
+### Contact Info
+**Office**: 
+3345 MEB<br/>
+School of Computing <br/>
+University of Utah<br/>
+USA<br/>
+
+**E-mail** : milinda (at) cs (dot) utah (dot) edu
+
+
 ### About Me
 
 I am a Ph.D. (in scientific computing track) student at School of Computing, University of Utah. I did my undergraduate studies in the field of Computer Science at University of Moratuwa. Currently, I am working as a Graduate Research Assistant, under 
