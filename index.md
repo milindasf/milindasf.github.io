@@ -75,8 +75,11 @@ Non linear wave equation with two Gaussian distributions as the initial conditio
 
 ### Space Filling Curve based octree partitioning. 
 
+Hilbert curve based octree partitioning
 ![Communication graph for Hilbert curve based partitioing for finite element matvec](./figs/hilbert_with_threshold_0p1.png)
-![Communication graph for Morton curve based partitioing for finite element matvec](./figs/morton_with_threshold_0p1.png.png)
+
+Morton curve based octree partitioning
+![Communication graph for Morton curve based partitioing for finite element matvec](./figs/morton_with_threshold_0p1.png)
 
 
 
