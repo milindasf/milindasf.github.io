@@ -5,7 +5,8 @@
 **Office**: 
 POB 5.232,
 Oden Institute, University of Texas at Austin, TX 78752<br/>
-You can find my CV (last updated Dec. 2025) [here](CV_Fernando.pdf)
+
+You can find my CV (last updated Dec. 2025) [here](CV_Fernando.pdf), link to my Google Scholar [profile](https://scholar.google.com/citations?user=PPKkq2cAAAAJ&hl=en) 
 
 # News
 - I will be joining the Department of Scientific Computing at Florida State University as an Assistant Professor in Fall 2026. 
@@ -17,6 +18,7 @@ https://www.sc.fsu.edu/graduate/application).
 
 I am particularly looking for students with a strong background in high-performance computing and strong programming skills. Experience in the design and implementation of parallel algorithms for hardware accelerators (e.g., GPUs) would be a significant advantage.  In addition to submitting a formal application, interested students are welcome to email me directly with:
 * A CV
+* List of courses taken
 * A brief statement describing their experience in HPC
 * A summary of relevant projects and any publications (if available, though not required)
  
