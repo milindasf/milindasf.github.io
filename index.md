@@ -42,28 +42,28 @@ vector products. This algorithmic innovation has enabled real-time extreme-scale
 
 ## Numerical Relativity
 <p float="left">
-  <img src="figs/q2/bbh.0005.jpeg" width="310" />
-  <img src="figs/q2/bbh.0033.jpeg" width="310" />
-  <img src="figs/q2/bbh.0035.jpeg" width="310" />
+  <img src="figs/q2/bbh.0005.jpeg" width="350" />
+  <!-- <img src="figs/q2/bbh.0033.jpeg" width="220" /> -->
+  <img src="figs/q2/bbh.0035.jpeg" width="350" />
 </p>
 
 Numerically simulated GW forms are essential for analyzing and verifying detected GW events. Existing general relativity (GR) GW signal catalogs lack waveforms for large mass ratio (i.e., $m_2\geq m_1$ and $m_2/m_1 = q \geq 10$) binaries and have become a significant impediment for the future ground-based and space-based detectors such as LISA. The state-of-the-art numerical relativity codes demonstrate poor scalability on modern heterogeneous architectures. They also use discretization methods that over-refine and lack GPU acceleration, leading to computationally prohibitive costs for high mass ratio binary black hole mergers. **Scalable AMR algorithms**: I have developed massively parallel, GPU-accelerated, and portable spacetime adaptive data structures and algorithms to perform fast GR simulations. These algorithms are available in [Dendro-GR](https://github.com/paralab/Dendro-GR), an open-source library developed by my collaborators and me. *The novel algorithmic contributions have reduced the overall time-to-solution 6$\times$ or more compared to existing methods and enabled the computation of GWs for large mass-ratio binaries*. **Domain partitioning**: An effective domain partitioning scheme should ensure load-balancing while minimizing the data movement to enable scaling to thousands of computer nodes. I developed a fast octree partitioning algorithm that optimally partitions data across processes to minimize energy consumption and communication. This algorithm has been used in several other applications. **Wavelet-based AMR (WAMR)**: I introduced a novel AMR scheme informed by wavelet-based sparse representations. WAMR automatically captures the evolving features of the solution through wavelet coefficients. This has enabled us to resolve the evolving dynamics of black hole merger spacetimes while achieving the same accuracy with fewer grid points compared to the state-of-the-art fixed box-in-box grid refinement.
-**Performance portable code generation**: The ``3 + 1''splitting~\cite{alcubierre2008introduction} of Einstein field equations consists of very complex hyperbolic PDEs that involve twenty-four unknowns per grid point and terms that include Christoffel symbols and spacetime Ricci curvature tensor. To efficiently evaluate these terms, I developed a symbolic code generation framework that abstracts the computation as a directed acyclic graph (DAG). I used common sub-expression elimination to reduce the overall cost of the operations and to discover a particular traversal order of the computational graph to minimize register spilling. **Spacetime adaptivity** For explicit time integration schemes, the global timestep size is constrained by the smallest grid spacing. In non-uniform explicit time marching schemes, the timestep size is locally defined based on local spatial resolution. The computational cost savings with time adaptivity can be significant, especially for large-mass-ratio binary mergers. To enable such computational savings, I developed parallel algorithms~\cite{fernando2022scalable} to perform local time-stepping for explicit time marching schemes on octrees.
+**Performance portable code generation**: The ``3 + 1''splitting of Einstein field equations consists of very complex hyperbolic PDEs that involve twenty-four unknowns per grid point and terms that include Christoffel symbols and spacetime Ricci curvature tensor. To efficiently evaluate these terms, I developed a symbolic code generation framework that abstracts the computation as a directed acyclic graph (DAG). I used common sub-expression elimination to reduce the overall cost of the operations and to discover a particular traversal order of the computational graph to minimize register spilling. **Spacetime adaptivity** For explicit time integration schemes, the global timestep size is constrained by the smallest grid spacing. In non-uniform explicit time marching schemes, the timestep size is locally defined based on local spatial resolution. The computational cost savings with time adaptivity can be significant, especially for large-mass-ratio binary mergers. To enable such computational savings, I developed parallel algorithms to perform local time-stepping for explicit time marching schemes on octrees.
 
 ## Extreme-scale AMR in modern supercomputers
 The developed AMR algorithms are not limited to computational relativity. *These algorithms have enabled massively parallel AMR simulations in various computational fluid dynamics applications*. 
 <p float="left">
-  <img src="figs/RT_mesh_evol0000.png" width="310" />
-  <img src="figs/RT_mesh_evol0007.png" width="310" />
-  <img src="figs/RT_mesh_evol0014.png" width="310" />
+  <img src="figs/RT_mesh_evol0000.png" width="350" />
+  <!-- <img src="figs/RT_mesh_evol0007.png" width="250" /> -->
+  <img src="figs/RT_mesh_evol0014.png" width="350" />
 </p>
 
 **Parallel-in-time through spacetime discretization** I worked on developing parallel algorithms for kd-tree-based adaptive $4D$ spacetime discretization methods for solving PDEs. Such spacetime discretization methods naturally allow adaptivity and parallelism in the time dimension.
 
 <p float="left">
-  <img src="figs/combined_AC.png" width="310" />
-  <img src="figs/combined_advection.png" width="310" />
-  <img src="figs/combined_diffusion.png" width="310" />
+  <img src="figs/combined_AC.png"        width="350" />
+  <!-- <img src="figs/combined_advection.png" width="250" /> -->
+  <img src="figs/combined_diffusion.png" width="350" />
 </p>
 
 
