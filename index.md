@@ -1,16 +1,19 @@
 <img src="figs/Milinda_Fernando-WebRes.jpg" alt="drawing" width="200"/>
 
 # Contact Info
-**E-mail**: milinda (at) oden (dot) utexas (dot) edu <br/>
+**E-mail**: wsf26 (at) fsu.edu <br/>
 **Office**: 
-POB 5.232,
-Oden Institute, University of Texas at Austin, TX 78752<br/>
+Dirac Science Library 475,
+Department of Scientific Computing, Florida State University<br/>
 
 You can find my CV (last updated Dec. 2025) [here](CV_Fernando.pdf), link to my Google Scholar [profile](https://scholar.google.com/citations?user=PPKkq2cAAAAJ&hl=en) 
 
 # News
+- I am looking for motivated PhD students, [see Opportunities](#-opportunities), and directly [apply](
+https://www.sc.fsu.edu/graduate/application) for the Graduate program at Department of Scientific Computing at FSU
 - I will be joining the Department of Scientific Computing at Florida State University as an Assistant Professor in Fall 2026. 
 - I will be presenting [my work](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=87056) at SIAM PP'26 in Berlin.
+- Team Cascadia has won the prestiges [2025 Gordon Bell Award](https://www.acm.org/media-center/2025/november/gordon-bell-prize-2025)
 
 # Opportunities
 I am currently seeking a motivated and dedicated PhD student to begin in Fall 2026 in the Computational Science program. Interested applicants are encouraged to apply through the program’s application [portal](
@@ -78,5 +81,5 @@ His research focuses on developing advanced numerical methods and computationall
 He will be joining the Department of Scientific Computing, Florida State University as an Assistant Professor. His current research includes the development of fast algorithms for Boltzmann transport with applications to low-temperature plasma physics.
 
 
-**Last Updated: Feb. 2026**
+**Last Updated: Aug. 2026**
 
